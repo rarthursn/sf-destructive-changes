@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>AccountServicesCase</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>SubmissionUpdateEventTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Account.At_Risk_InternalExternal_Reason_Selected</members>
+		<name>ValidationRule</name>
+	</types>
+</Package>
