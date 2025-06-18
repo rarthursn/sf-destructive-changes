@@ -15,7 +15,7 @@ Use this repo to make destructive changes in an environment. This can be particu
 2. Edit the destructiveChanges.xml file to specify the metadata you want to delete.
 3. From a command prompt, while in the folder with these files, run the command below.
 
->sfdx force:mdapi:deploy -u environmentAlias --deploydir . --wait 2 --testlevel RunSpecifiedTests  --runtests SListTest
+>sf project deploy start -u environmentAlias --metadata-dir . --wait 2 --testlevel RunSpecifiedTests  --runtests SListTest
 
 ### More info about this command
 
